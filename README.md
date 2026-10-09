@@ -6,7 +6,7 @@ A small Python utility that embeds cover art into an MP3's ID3 tags so the artwo
 
 ## How it works
 ```mermaid
-flowchart LR
+flowchart TD
     A[MP3 file] --> B[Open with mutagen]
     B --> C{Has ID3 tags?}
     C -- no --> D[Add empty tags]
